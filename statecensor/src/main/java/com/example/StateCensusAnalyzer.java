@@ -62,7 +62,7 @@ public class StateCensusAnalyzer {
     public static void main(String[] args) {
         System.out.println("Welcome to the State Census Analyzer.");
 
-        String stateCensusFilePath = "src/main/resources/StateCensus.csv";
+        String stateCensusFilePath = "statecensor/src/main/resources/StateCensus.csv";
 
         StateCensusAnalyzer stateCensusAnalyzer = new StateCensusAnalyzer(stateCensusFilePath);
         System.out.println("Number of records in State Census CSV: " + stateCensusAnalyzer.countRecordsInStateCensusData());
